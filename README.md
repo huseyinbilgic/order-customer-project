@@ -1,4 +1,5 @@
 # order-customer-project
+# Not: Proje main branchindedir.
 
 ### Teknolojiler
 * Java 17
@@ -10,7 +11,8 @@
 * Data JPA 
 * MySQL Driver
 * Lombok
-# Not: Proje main branchindedir.
+* 
+
 
 ### Kurulum
 * Öncelikle mysql 8'i bilgisayarınıza kurun
@@ -18,7 +20,8 @@
 * https://github.com/huseyinbilgic/order-customer-project/blob/main/src/main/resources/application.properties dosyasındaki username ve password alanlarını bilgisayarınızdaki mysql username ve password bilgilerine göre girin.
 * Bu yapılandırmalardan sonra çalıştırmaya hazır olacaktır.
 
-## API ENDPOINTS
+##  ENDPOINTS
+
 ### Customer API
 | Route  | HTTP isteği | Body   | Açıklama   |
 |---|---|---|---|
