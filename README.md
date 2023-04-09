@@ -1,5 +1,6 @@
 # order-customer-project
 # Not: Proje main branchindedir.
+# Not: https://github.com/huseyinbilgic/order-customer-project/blob/main/src/main/resources/postman-collection/Order_postman_request.postman_collection.json sayfasında postman için istekler yazılmıştır. Projeyi çalıştırdıktan sonra dosyayı indirip Postman uygulamasında kullanabilirsiniz.
 
 ### Teknolojiler
 * Java 17
