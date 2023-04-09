@@ -20,6 +20,7 @@
 ## API ENDPOINTS
 ### Customer API
 | Route  | HTTP isteği | Body   | Açıklama   |
+|---|---|---|---|
 | http://localhost:8080/api/customers  | `GET`   |  Yok | Tüm müşterileri getir
 | http://localhost:8080/api/customers/{customerId}  |`GET`   |  Yok | Id'ye göre müşteri getir
 
@@ -35,6 +36,7 @@
 
 ### Order API
 | Route  | HTTP isteği | Body   | Açıklama   |
+|---|---|---|---|
 | http://localhost:8080/api/orders  |`GET`   |  Yok | Tüm siparişleri getir
 | http://localhost:8080/api/orders/{orderId}  |`GET`   |  Yok | Id'ye göre sipariş getir
 
