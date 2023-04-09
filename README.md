@@ -1,6 +1,6 @@
 # order-customer-project
 
-## Teknolojiler
+### Teknolojiler
 * Java 17
 * Spring Boot
 
@@ -10,8 +10,9 @@
 * Data JPA 
 * MySQL Driver
 * Lombok
-##### Not: Proje main branchindedir.
-## Kurulum
+# Not: Proje main branchindedir.
+
+### Kurulum
 * Öncelikle mysql 8'i bilgisayarınıza kurun
 * Kurduktan sonra ordercustomerdb adında bir veritabanı oluşturun.
 * https://github.com/huseyinbilgic/order-customer-project/blob/main/src/main/resources/application.properties dosyasındaki username ve password alanlarını bilgisayarınızdaki mysql username ve password bilgilerine göre girin.
@@ -44,17 +45,20 @@
 ## Requests
 
 ### CustomerRequest 
+```
 {
     "name":text,
     "age":number
 }
 ### OrderRequest 
+```
 {
     "totalPrice":number,
     "customerId":number
 }
 
 ### OrderAfterCreationDateRequest
+```
 {
     "date":text(date)
 }
