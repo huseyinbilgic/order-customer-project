@@ -45,11 +45,12 @@
 ## Requests
 
 ### CustomerRequest 
-``
+```
 {
     "name":text,
     "age":number
 }
+```
 
 ### OrderRequest 
 ```
@@ -57,11 +58,13 @@
     "totalPrice":number,
     "customerId":number
 }
+```
 
 ### OrderAfterCreationDateRequest
 ```
 {
     "date":text(date)
 }
+```
 
 
